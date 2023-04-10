@@ -289,20 +289,12 @@ img {
   gap: 24px;
 }
 .img-content-p {
-  display: flex;
-  flex-direction: column;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  width: 360px;
-  border-radius: 0px 0px 4px 4px;
   border-top: none;
 }
 .img-content {
-  display: flex;
-  flex-direction: column;
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  width: 264px;
   border-radius: 0px 0px 4px 4px;
 }
 .same-img {
@@ -321,15 +313,12 @@ img {
   row-gap: 48px;
   flex-wrap: wrap;
 }
-.container-portfolio {
-  padding-top: 120px;
-}
+
 .section-p {
   padding-bottom: 120px;
   padding-top: 96px;
 }
 .project-cards {
-  border: 1px solid #e7e9fc;
   width: calc((100% - (24px * 2)) / 3);
 }
 .header {
@@ -342,4 +331,20 @@ img {
 .link-footer {
   display: inline-block;
   margin-bottom: 16px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.section-thr {
+  padding-bottom: 120px;
 }
