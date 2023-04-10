@@ -268,7 +268,7 @@ nav {
   gap: 24px;
 }
 .list-item-offer {
-  width: 264px;
+  width: calc((100% - 24px * 3) / 4);
 }
 .container-03 {
   display: flex;
@@ -313,4 +313,5 @@ nav {
 }
 .project-cards {
   border: 1px solid #e7e9fc;
+  width: calc((100% - (24px * 2)) / 3);
 }
