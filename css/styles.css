@@ -219,6 +219,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 /* homework-03 */
 
 .header-container {
@@ -306,5 +307,10 @@ nav {
 }
 .container-portfolio {
   padding-top: 120px;
+}
+.section-p {
   padding-bottom: 120px;
+}
+.project-cards {
+  border: 1px solid #e7e9fc;
 }
